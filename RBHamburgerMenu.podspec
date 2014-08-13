@@ -13,11 +13,9 @@ Pod::Spec.new do |s|
   s.summary          = "A hamburger menu"
   s.description      = "Another hamburger menu"
   s.homepage         = "https://github.com/chrene/RBHamburgerMenu"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Christian Enevoldsen" => "" }
-  s.source           = { :git => "https://github.com/chrene/RBHamburgerMenu.git" }
-  # s.social_media_url = 'https://twitter.com/chrsapp'
+  s.source           = { :git => "https://github.com/chrene/RBHamburgerMenu.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
