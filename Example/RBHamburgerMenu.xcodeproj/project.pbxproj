@@ -46,7 +46,7 @@
 		2D845E76199C19B500AE21F7 /* RBHamburgerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBHamburgerSegue.m; sourceTree = "<group>"; };
 		2D845E77199C19B500AE21F7 /* RBHamburgerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBHamburgerViewController.h; sourceTree = "<group>"; };
 		2D845E78199C19B500AE21F7 /* RBHamburgerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBHamburgerViewController.m; sourceTree = "<group>"; };
-		2D845E7C199C19BC00AE21F7 /* RBHamburgerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RBHamburgerMenu.h; path = ../../Pod/RBHamburgerMenu.h; sourceTree = "<group>"; };
+		2D845E7D199C295500AE21F7 /* RBHamburgerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBHamburgerMenu.h; sourceTree = "<group>"; };
 		3085562AC4D94A18BA17CDDC /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AEF6CED5ED49649B2C0F0F /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 		4C6E950CB0D5AB8024816E5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -105,6 +105,7 @@
 		2D845E73199C19B500AE21F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2D845E7D199C295500AE21F7 /* RBHamburgerMenu.h */,
 				2D845E74199C19B500AE21F7 /* .gitkeep */,
 				2D845E75199C19B500AE21F7 /* RBHamburgerSegue.h */,
 				2D845E76199C19B500AE21F7 /* RBHamburgerSegue.m */,
@@ -153,7 +154,6 @@
 		6003F593195388D20070C39A /* RBHamburgerMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2D845E7C199C19BC00AE21F7 /* RBHamburgerMenu.h */,
 				2D845E73199C19B500AE21F7 /* Classes */,
 				6003F59C195388D20070C39A /* RBAppDelegate.h */,
 				6003F59D195388D20070C39A /* RBAppDelegate.m */,
