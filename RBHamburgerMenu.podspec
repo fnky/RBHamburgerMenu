@@ -10,25 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "RBHamburgerMenu"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RBHamburgerMenu."
-  s.description      = <<-DESC
-                       An optional longer description of RBHamburgerMenu
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RBHamburgerMenu"
+  s.summary          = "A hamburger menu"
+  s.description      = "Another hamburger menu"
+  s.homepage         = "https://github.com/chrene/RBHamburgerMenu"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Christian Enevoldsen" => "chrene91@gmail.com" }
-  s.source           = { :git => "https://github.com/<chrene>/RBHamburgerMenu.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Christian Enevoldsen" => "" }
+  s.source           = { :git => "https://github.com/chrene/RBHamburgerMenu.git" }
+  # s.social_media_url = 'https://twitter.com/chrsapp'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
